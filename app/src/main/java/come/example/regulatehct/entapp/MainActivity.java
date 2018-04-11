@@ -87,10 +87,10 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_football){
 
-        } else if (id == R.id.nav_news) {
+            Intent intent = new Intent(MainActivity.this,FootballActivity.class);
+            startActivity(intent);
 
-            //Intent intent = new Intent(MainActivity.this,);
-            //startActivity(intent);
+        } else if (id == R.id.nav_news) {
 
         } else if (id == R.id.nav_share) {
 
