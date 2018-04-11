@@ -81,16 +81,16 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
+        if (id == R.id.nav_home) {
 
-        } else if (id == R.id.nav_gallery) {
+        } else if (id == R.id.nav_movies) {
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.nav_football){
 
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.nav_news) {
 
-            Intent intent = new Intent(MainActivity.this,ScrollingFootballActivity.class);
-            startActivity(intent);
+            //Intent intent = new Intent(MainActivity.this,);
+            //startActivity(intent);
 
         } else if (id == R.id.nav_share) {
 
