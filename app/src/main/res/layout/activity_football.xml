@@ -47,6 +47,7 @@
             android:paddingHorizontal="5dp">
 
             <TextView
+                android:id="@+id/fixtures"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="2"
@@ -55,13 +56,15 @@
                 android:padding="15dp"
                 android:textColor="#f1f1f1"
                 android:layout_marginRight="1dp"
-                android:background="#2f2f2f"/>
+                android:background="#2f2f2f"
+                android:onClick="setLog"/>
 
             <TextView
+                android:id="@+id/table"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="2"
-                android:text="Log"
+                android:text="Table"
                 android:gravity="center"
                 android:padding="15dp"/>
 
