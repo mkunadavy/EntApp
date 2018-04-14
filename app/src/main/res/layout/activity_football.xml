@@ -52,7 +52,7 @@
                 android:layout_weight="2"
                 android:text="Fixtures"
                 android:gravity="center"
-                android:padding="10dp"
+                android:padding="15dp"
                 android:textColor="#f1f1f1"
                 android:layout_marginRight="1dp"
                 android:background="#2f2f2f"/>
@@ -63,7 +63,7 @@
                 android:layout_weight="2"
                 android:text="Log"
                 android:gravity="center"
-                android:padding="10dp"/>
+                android:padding="15dp"/>
 
         </LinearLayout>
 
