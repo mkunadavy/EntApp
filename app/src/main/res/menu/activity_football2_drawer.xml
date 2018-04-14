@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_movies"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Movies" />
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@drawable/news"
+            android:title="News &amp; Updates" />
+        <item
+            android:id="@+id/nav_football"
+            android:icon="@drawable/football"
+            android:title="Football" />
+    </group>
+
+    <item android:title="Leagues">
+        <menu>
+            <item
+                android:id="@+id/nav_laliga"
+                android:icon="@drawable/logolaligcolor"
+                android:title="La Liga Santander" />
+
+            <item
+                android:id="@+id/nav_epl"
+                android:icon="@drawable/epllogo"
+                android:title="English Premier League" />
+
+            <item
+                android:id="@+id/nav_bundesliga"
+                android:icon="@drawable/bundesliga"
+                android:title="BundesLiga" />
+
+            <item
+                android:id="@+id/nav_uefa"
+                android:icon="@drawable/uefa"
+                android:title="Uefa Champ Leauge" />
+        </menu>
+    </item>
+
+</menu>

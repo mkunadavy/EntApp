@@ -19,7 +19,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".FootballActivity"></activity>
+        <activity android:name=".FootballActivity" />
+        <activity
+            android:name=".FootballActivityTwo"/>
+        <activity
+            android:name=".LaLigaActivity"></activity>
     </application>
 
 </manifest>
