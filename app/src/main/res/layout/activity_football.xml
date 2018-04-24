@@ -10,6 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -43,8 +44,19 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:weightSum="4"
+            android:weightSum="6"
             android:paddingHorizontal="5dp">
+
+            <TextView
+                android:id="@+id/results"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="Results"
+                android:background="#2f2f2f"
+                android:textColor="#f1f1f1"
+                android:gravity="center"
+                android:padding="15dp"/>
 
             <TextView
                 android:id="@+id/fixtures"
@@ -54,10 +66,7 @@
                 android:text="Fixtures"
                 android:gravity="center"
                 android:padding="15dp"
-                android:textColor="#f1f1f1"
-                android:layout_marginRight="1dp"
-                android:background="#2f2f2f"
-                android:onClick="setLog"/>
+                android:layout_marginRight="1dp" />
 
             <TextView
                 android:id="@+id/table"
@@ -70,108 +79,16 @@
 
         </LinearLayout>
 
-        <ScrollView
+        <android.support.v7.widget.RecyclerView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/rv"
+            android:scrollbars="vertical"
             android:padding="5dp">
 
-            <LinearLayout
-                android:id="@+id/mainlaliga"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:padding="10dp">
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:background="#eee"
-                    android:padding="10dp">
+        </android.support.v7.widget.RecyclerView>
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        android:weightSum="5">
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical"
-                            android:layout_weight="2">
-
-                            <ImageView
-                                android:layout_width="50dp"
-                                android:layout_height="50dp"
-                                android:src="@drawable/barcelona"
-                                android:layout_gravity="center"
-                                />
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_gravity="center"
-                                android:text="Barcelona"
-                                android:textSize="15sp"/>
-
-                        </LinearLayout>
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:padding="10dp"
-                            android:gravity="center"
-                            android:layout_gravity="center"
-                            android:text="V"
-                            android:textSize="12sp"
-                            android:layout_weight="1"/>
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical"
-                            android:layout_weight="2">
-
-                            <ImageView
-                                android:layout_width="50dp"
-                                android:layout_height="50dp"
-                                android:src="@drawable/real"
-                                android:layout_gravity="center"
-                                />
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_gravity="center"
-                                android:text="Real Madrid"
-                                android:textSize="15sp"/>
-
-                        </LinearLayout>
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="Venue: Camp Nou Stadium "
-                            android:gravity="center"
-                            android:textSize="12sp"/>
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="2100hrs CAT"
-                            android:textSize="14sp"
-                            android:gravity="center" />
-                    </LinearLayout>
-                </LinearLayout>
-
-            </LinearLayout>
-        </ScrollView>
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
