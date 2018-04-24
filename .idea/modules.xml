@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/EntApp.iml" filepath="$PROJECT_DIR$/EntApp.iml" />
+      <module fileurl="file://C:\Users\TinoeMaz\AndroidStudioProjects\EntApp\EntApp.iml" filepath="C:\Users\TinoeMaz\AndroidStudioProjects\EntApp\EntApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\TinoeMaz\AndroidStudioProjects\EntApp\app\app.iml" filepath="C:\Users\TinoeMaz\AndroidStudioProjects\EntApp\app\app.iml" />
     </modules>
   </component>
 </project>
