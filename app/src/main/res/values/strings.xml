@@ -11,4 +11,17 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+
+    <string name="title_movies">Movies</string>
+    <string name="title_football">Football</string>
+    <string name="title_upcoming">UpcomingEvents</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_movies_fragment">Movies blank fragment</string>
+    <string name="hell_football_fragment">Football blank fragment</string>
+    <string name="hello_upcoming_fragment">UpcomingEvents blank fragment</string>
+    <string name="title_activity_news_and_updates">NewsAndUpdates</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
