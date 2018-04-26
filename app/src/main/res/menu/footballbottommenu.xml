@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_movies"
+        android:icon="@drawable/laligalogotoo"
+        android:title="La Liga" />
+
+    <item
+        android:id="@+id/nav_football"
+        android:icon="@drawable/epllogo"
+        android:title="EPL" />
+
+    <item
+        android:id="@+id/menu_uefa"
+        android:icon="@drawable/uefatwoo"
+        android:title="UCL" />
+
+    <item
+        android:id="@+id/menu_bundes"
+        android:icon="@drawable/bundesligalogoto"
+        android:title="Bundesliga" />
+
+</menu>
